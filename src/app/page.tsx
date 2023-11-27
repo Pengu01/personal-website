@@ -9,7 +9,7 @@ import pImage2 from "@/images/project2.png"
 import pImage3 from "@/images/project3.png"
 import {AiOutlineTwitter, AiOutlineMail, AiOutlinePhone, AiOutlineLinkedin, AiOutlineGithub} from "react-icons/ai"
 //Array to be able to go through them easaly
-export const projects = [
+const projects = [
     pImage,
     pImage1,
     pImage2,
