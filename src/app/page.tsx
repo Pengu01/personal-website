@@ -86,10 +86,10 @@ export default function Page() {
         <li id="projects" className="font-bold text-5xl bg-gradient-to-r from-[#91ffff] to-[#e9ffff] text-transparent bg-clip-text "><Link href={"/projects"}>Projects</Link></li>
         <li id="contact" className="font-bold text-5xl bg-gradient-to-r from-[#91ffff] to-[#e9ffff] text-transparent bg-clip-text"><Link href={"/contact"}>Contact</Link></li>
         <li id="about" className="font-bold text-5xl bg-gradient-to-r from-[#91ffff] to-[#e9ffff] text-transparent bg-clip-text"><Link href={"/about"}>About</Link></li>
-        <div onClick={handleNav} className="mt-12">
+        <li onClick={handleNav} className="mt-12">
         {nav ? <div className="fixed w-10 h-[2px] ease-in-out duration-1000 rotate-45 delay-1000 bg-[#e9ffff] translate-x-[-48.5%]"></div> : <div className="fixed rotate-45 w-0 h-[2px] ease-in-out duration-1000 bg-[#e9ffff] translate-x-[-48.5%]"></div>}
         {nav ? <div className="fixed w-10 h-[2px] ease-in-out duration-1000 rotate-[315deg] delay-1000 bg-[#e9ffff] translate-x-[-48.5%]"></div> : <div className="fixed rotate-[315deg] w-0 h-[2px] ease-in-out duration-1000 bg-[#e9ffff] translate-x-[-48.5%]"></div>}
-          </div>
+          </li>
       </ul>
       <header className="z-20 w-screen flex h-20 items-center bg-[#121212] sticky">
         <h1 className="md:text-3xl mx-6 font-bold text-xl bg-gradient-to-r from-[#91ffff] to-[#e9ffff] text-transparent bg-clip-text">Alfons Stoltz.</h1>
