@@ -83,9 +83,9 @@ export default function Page() {
   return (
     <>
       <ul className={nav ? "gap-8 fixed flex flex-col justify-center items-center h-screen w-screen z-10 bg-[#121212] ease-in-out duration-1000 top-[0]" : 'md:hidden gap-8 flex flex-col justify-center items-center h-screen w-screen z-10 fixed top-[-100%] ease-in-out duration-1000 bg-black'}>
-        <Link href={"/projects"}><li id="projects" className="font-bold text-5xl bg-gradient-to-r from-[#91ffff] to-[#e9ffff] text-transparent bg-clip-text ">Projects</li></Link>
-        <Link href={"/contact"}><li id="contact" className="font-bold text-5xl bg-gradient-to-r from-[#91ffff] to-[#e9ffff] text-transparent bg-clip-text">Contact</li></Link>
-        <Link href={"/about"}><li id="about" className="font-bold text-5xl bg-gradient-to-r from-[#91ffff] to-[#e9ffff] text-transparent bg-clip-text">About</li></Link>
+        <li id="projects" className="font-bold text-5xl bg-gradient-to-r from-[#91ffff] to-[#e9ffff] text-transparent bg-clip-text "><Link href={"/projects"}>Projects</Link></li>
+        <li id="contact" className="font-bold text-5xl bg-gradient-to-r from-[#91ffff] to-[#e9ffff] text-transparent bg-clip-text"><Link href={"/contact"}>Contact</Link></li>
+        <li id="about" className="font-bold text-5xl bg-gradient-to-r from-[#91ffff] to-[#e9ffff] text-transparent bg-clip-text"><Link href={"/about"}>About</Link></li>
         <div onClick={handleNav} className="mt-12">
         {nav ? <div className="fixed w-10 h-[2px] ease-in-out duration-1000 rotate-45 delay-1000 bg-[#e9ffff] translate-x-[-48.5%]"></div> : <div className="fixed rotate-45 w-0 h-[2px] ease-in-out duration-1000 bg-[#e9ffff] translate-x-[-48.5%]"></div>}
         {nav ? <div className="fixed w-10 h-[2px] ease-in-out duration-1000 rotate-[315deg] delay-1000 bg-[#e9ffff] translate-x-[-48.5%]"></div> : <div className="fixed rotate-[315deg] w-0 h-[2px] ease-in-out duration-1000 bg-[#e9ffff] translate-x-[-48.5%]"></div>}
